@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uj#w98gi3jjl!hrh0)_sj9rlqbxm$cga&z8c7w^ny1yzk&eu46
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 STRIPE_SECRET_KEY = "sk_test_51N2cSHSD9HKG8yGIRmPu4DErmUfPxQk7n1gJWNT9iNtkeoxFUW1CSNYm1BEZ66zAVre1Mg1x1Vbk28oKckFiERYq00wOIZlVfM"
 RPZ_SECRET_KEY = "LAip9602czN9MlqUVi6BpvQb"
